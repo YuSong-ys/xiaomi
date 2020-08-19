@@ -1,0 +1,142 @@
+.site-header-wrap2{
+	width: 100%;
+	height:100px ;
+	/* display: none; */
+	z-index: 10000;
+	background-color: white;
+}
+.fixnav {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+			}
+.site-header-wrap2 .container{
+		position: relative;
+	    width: 1226px;
+	    margin-right: auto;
+	    margin-left: auto;
+}
+.site-header-wrap2 .header-logo {
+	/* background-color: #FF6700; */
+    float: left;
+    width: 150px;
+	height: 61px;
+    margin-top: 22px;
+    margin:22px 0px 0px;
+    width: 150px
+	
+}
+.site-header-wrap2 .header-nav{
+	width: 773.38px;
+	height:100px;
+	float: left;
+	/* background-color: #FF6700; */
+	
+}
+.site-header-wrap2 .header-search{
+	float: right;
+	width: 296px;
+	height: 50px;
+	margin-top: 25px;
+	/* background-color: #FF6700; */
+}
+.site-header-wrap2 .header-logo a {
+    display: inline-block;
+    
+}
+.site-header-wrap2 .header-logo .logo {
+    position: relative;
+    /* display:inline-block; */
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    
+    background: #ff6700 url(../img/mi-logo.png) no-repeat 50% 50%;
+}
+.site-header-wrap2 .header-logo .qiyelogo {
+	/* display:inline-block; */
+    width: 67px;
+    height: 50px;
+    background: url(../img/qiyelogo.png) 50% 50% no-repeat;
+    margin-left: 10px;
+}
+/*新品字体样式*/
+.site-header-wrap2 .site-header .nav-list {
+    position: relative;
+    z-index: 10;
+    float: left;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.site-header-wrap2 ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.site-header-wrap2 .site-header .nav-item {
+    float: left;
+}
+.site-header-wrap2 li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.site-header-wrap2 .site-header .nav-list {
+    position: relative;
+    z-index: 10;
+    float: left;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 20px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.site-header-wrap2 .site-header .nav-item .link {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.site-header-wrap2 .header-nav .nav-list .nav-item .link:hover{
+	color: #FF6700;
+}
+/*搜索框*/
+.site-header-wrap2 .site-header .search-form {
+    position: relative;
+    width: 296px;
+    height: 50px;
+}
+form{
+	margin: 0;
+}
+.header-search .serch-text{
+	position: absolute;
+	right: 51px;
+	width: 245px;
+	height: 50px;
+	padding: 0 10px;
+	border: 1px solid #E0E0E0;
+	z-index: 1;
+}
+.header-search .search-btn{
+	position: absolute;
+	right: 0;
+	width: 52px;
+	height: 50px;
+	border: 1px solid #E0E0E0;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #FFFFFF;
+	outline: 0;
+	z-index: 2;
+}
+.header-search:hover .serch-text{
+	border: 1px solid #616161;
+}
+.header-search:hover .search-btn{
+	border: 1px solid #616161;
+}

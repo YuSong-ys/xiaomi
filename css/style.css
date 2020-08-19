@@ -1,0 +1,113 @@
+.page-main {
+    background:  url(../img/apdownload-bg.jpg) no-repeat center 0;
+}
+
+.mi-app-download.logo {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 47px;
+    height: 47px;
+    background: url(../img/apdownload-logo.png) no-repeat;
+}
+
+.mi-app-download {
+    height: 1188px;
+    position: relative;
+}
+
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ir {
+    display: block;
+    text-align: left;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+.mi-app-download .content {
+    margin-top: 315px;
+    text-align: center;
+}
+
+.mi-app-download .title {
+    margin: 0 0 75px;
+    font-weight: normal;
+    color: #fff;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    font-family: 'F78cea';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.links {
+    width: 340px;
+    height: 124px;
+    margin: 0 auto;
+}
+
+.code {
+    float: right;
+    width: 114px;
+    height: 114px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.btn {
+    display: block;
+    width: 190px;
+    height: 52px;
+    margin-bottom: 20px;
+    line-height: 52px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: none;
+    color: #a7c9df;
+}
+
+body {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+.mi-app-download .btn .icon {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 24px;
+    height: 52px;
+    margin-right: 14px;
+    background-image: url(../img/a.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.mi-app-download .btn {
+    display: block;
+    width: 190px;
+    height: 52px;
+    margin-bottom: 20px;
+    line-height: 52px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: none;
+    color: #a7c9df;
+}
+
+i {
+    font-style: italic;
+}
+
+.mi-app-download .btn .icon-android {
+    background-position: 0 -52px;
+}

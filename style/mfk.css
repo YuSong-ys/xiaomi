@@ -1,0 +1,234 @@
+/* 导航栏 */
+.xm-product-box .nav-bar {
+    margin-top: 15px;
+    position: relative;
+    height: 50px;
+    color: #616161;
+}
+.xm-product-box .nav-bar a{
+    color: #616161;
+}
+.xm-product-box .nav-bar a:hover{
+    color: #ff6700;
+}
+.xm-product-box .nav-bar .container{
+    width: 1226px;
+    height: 100%;
+    position: relative;
+}
+.xm-product-box .nav-bar .container .title{
+    font-size: 18px;
+    display: inline-block;
+}
+.xm-product-box .nav-bar .nav {
+    float: right;
+    margin: 10px 0 0 0;
+}
+.xm-product-box .nav-bar .nav .nav-switch {
+    margin-right: 10px;
+    line-height: 30px;
+}
+.xm-product-box .nav-bar .nav .nav-switch .tab-active{
+    color: #ff6700;
+}
+.xm-product-box .nav-bar .nav .btn-primary {
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+}
+.xm-product-box .nav-bar .nav:hover .micard-pop-content{
+    display: block;
+}
+.micard-pop-content:hover{
+    display: block;
+}
+.xm-product-box .nav .micard-pop-content {
+    top: 40px;
+}
+.micard-pop-content {
+    position: absolute;
+    padding: 14px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    display: none;
+    right: 0;
+    z-index: 10;
+}
+.micard-pop-content img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 6px auto;
+}
+
+/* 移动卡图片 */
+.mimobile-summary .summary-head {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background: #000;
+    text-align: center;
+    background: url(../img/summary_header.jpg) no-repeat center top;
+}
+.mimobile-summary .summary-head .container{
+    width: 1226px;
+    margin:0 auto;
+    height: 100%;
+    position: relative;
+}
+.mimobile-summary .summary-head .abs-text {
+    padding: 88px 0 0 796px;
+    text-align: left;
+    height: 100%;
+}
+.mimobile-summary .summary-head .sub {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.mimobile-summary .title {
+    font-family: 'FZLTXHK','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+    color: #fff;
+}
+.mimobile-summary .summary-head .sub-title {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 32px;
+}
+.mimobile-summary  .summary-head .btns .btn-primary {
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+}
+.mimobile-summary  .summary-head .btns {
+    margin-top:40px;
+}
+.mimobile-summary .summary-head .micard-pop-content{
+    display: none;
+    right: 200px;
+}
+.mimobile-summary .summary-head .btns:hover .micard-pop-content{
+    display: block;
+}
+.mimobile-summary .summary-head .btns a {
+    width: 292px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.mimobile-summary .summary-head .links {
+    margin: 15px 0 0 0;
+}
+.mimobile-summary .summary-head .links a {
+    margin-right: 15px;
+    border: 1px solid #ff6709;
+    display: inline-block;
+    width: 136px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #ff6709;
+    font-size: 16px;
+}
+
+/* 移动卡资费 */
+.mimobile-summary .summary-card-text {
+    position: relative;
+    padding: 20px 0;
+    height: 698px;
+    /* background: #f5f5f5; */
+}
+/* 海量号码自由选择 */
+.mimobile-summary .summary-largeNum {
+    position: relative;
+    background: url(../img/summary_largeNum.jpg) no-repeat center top;
+    height: 350px;;
+}
+/* 上网快 */
+.mimobile-summary .summary-prettyNum {
+    position: relative;
+    background-image: url(../img/m-13.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 758px;
+    overflow: hidden;
+    background: #262626;
+    color: #fff;
+    text-align: center;
+}
+/* 所有业务网上搞定 */
+.mimobile-summary .summary-online {
+    position: relative;
+    height: 690px;
+}
+/* 不需要剪卡 */
+.mimobile-summary .summary-sim {
+    height: 680px;
+    background-color: #273141;
+    overflow: hidden;
+    position: relative;
+}
+/* 选个号把 */
+.mimobile-summary .summary-footer {
+    height: 760px;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 80px;
+    position: relative;
+}
+/* 尾部图标 */
+.end {
+    height: 144px;
+    position: relative;
+}
+.end .summary-card-info{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.end .summary-card-info .abs-text{
+    width: 1226px;
+    margin:0 auto;
+    /* text-align: center; */
+}
+.end .summary-card-info .abs-text ul{
+    list-style: none;
+    display: inline-block;
+    width: 1226px;
+}
+.xm-product-box .summary-card-info ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.xm-product-box .summary-card-info ul span {
+    display: block;
+    margin: 47px 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #595959;
+    text-align: left;
+    border-right: 1px solid #8d8d8d;
+}
+.xm-product-box .summary-card-info ul .iconfont {
+    float: left;
+    width: 52px;
+    height: 46px;
+}
+.xm-product-box .summary-card-info .list i {
+    margin: 0 20px 0 50px;
+}
+.xm-product-box .summary-card-info ul strong {
+    font-weight: normal;
+}

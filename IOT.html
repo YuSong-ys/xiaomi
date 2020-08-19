@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米IOT</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/xiaomiIOT.css"/>
+
+	
+<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.swiper-container{
+			width: 100%;
+			height: 650px;
+			position: relative;
+		}
+		.swiper-wrapper .swiper-slide img{
+			width: 100%;
+			
+		}
+		.swiper-button-next,.swiper-button-prev{
+			top: 50%;
+		}
+		.swiper-button-prev:hover,.swiper-button-next:hover{
+		color:black;
+		}
+		.click_btn{
+	     color: #fff;
+		width: 3.68%;
+		line-height: 30px;
+		text-align: center;
+		cursor: pointer;
+		margin-left: 48.63%;
+		}
+		.click_btn img{
+			width: 100%;
+			height: 55px;
+		}
+		.dialog_bg{
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		
+		background: rgba(0,0,0,0.3);
+		
+		
+		display: none;
+		}
+		.dialog_cont{
+		position: absolute;
+		
+		transform: translate(-50%,-50%);
+		top: 70%;
+		left: 50%;
+		width: 39.47%;
+		height: 750px;
+		background: transparent;
+		}
+		video{
+			width: 95%;
+		}
+		.close{
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 40px;
+		color: white;
+		margin-top: -20px;
+		cursor: pointer;}
+		
+	</style>
+	<script src="js/juquery.min.js"></script>
+	<body>
+		<div id="app">
+			<!-- 页眉 -->
+			<div id="header-content">
+				<div id="header-banner">
+					<img src="img/img.png">
+					 <a href="#">小米IoT开发者平台</a>
+				</div>
+				<div id="header-menus">
+					<div class="header-item">
+						<a href="#">首页</a>
+					</div>
+					<div class="header-item">
+						<a href="#">文档中心</a>
+					</div>
+					<div class="header-item">
+						<a href="#">登录/注册</a>
+					</div>
+				</div>
+			</div>
+			<!-- swiper轮播 -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/tit1.png" ></div>
+			        <div class="swiper-slide"><img src="img/tit2.png" ></div>
+			       
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			    
+			   
+			</div>
+			<div id="intro-cards">
+				<ul>
+					<li class="card"></li>
+					<li class="card"></li>
+					<li class="card"></li>
+					<li class="card"></li>
+				</ul>
+			</div>
+			<!-- 关于我们 -->
+			<div id="introduce-part">
+				<div class="introduce-part-tit">
+					关于平台
+				</div>
+				<div class="introduce-part-text">
+					<p>小米IoT开发者平台面向智能家居、智能家电、健康可穿戴、出行车载等领域，开放智能硬件接入、智能硬件控制、</p>
+					<p>自动化场景、AI技术、新零售渠道等小米特色优质资源，与合作伙伴一起打造极致的物联网体验。</p>
+				</div>
+				<div class="logo-swiper">
+					<ul class="logo">
+						<li class="logo-img"><img src="img/1_15_jinxing.48e6384.jpg" ></li>
+						<li class="logo-img"><img src="img/1_6_meidi.583b1c0.jpg"></li>
+						<li class="logo-img"><img src="img/2_11_hualai.f216c31.jpg"></li>
+						<li class="logo-img"><img src="img/2_7_yunmi.3a05af1.jpg"></li>
+						<li class="logo-img"><img src="img/2_13_jiqidao.ff77b2e.jpg"></li>
+						<li class="logo-img"><img src="img/2_5_oupu.27be9a8.jpg" ></li>
+						<li class="logo-img"><img src="img/3_1_fengmi.798debd.jpg"></li>
+						<li class="logo-img"><img src="img/3_4_zaomengzhe.5ed81b6.jpg"></li>
+						<li class="logo-img"><img src="img/3_8_bangxiansheng.f28907a.jpg"></li>
+						<li class="logo-img"><img src="img/3_9_yunding.ef9529e.jpg"></li>
+						<li class="logo-img"><img src="img/3_14_nvwa.c174504.jpg"></li>
+						<li class="logo-img"><img src="img/3_15_xiaogou.af60e88.jpg" ></li>
+						<li class="logo-img"><img src="img/4_10_huahuacaocao.2e4539f.jpg"></li>
+						<li class="logo-img"><img src="img/4_11_jushu.55ecb74.jpg"></li>
+						<li class="logo-img"><img src="img/4_14_yuemi.1ef0a15.jpg"></li>
+						<li class="logo-img"><img src="img/4_15_ailuowei.9a4f855.jpg"></li>
+						
+				
+						
+					</ul>
+				</div>
+			</div>
+			<!-- 合作方案 -->
+			<div id="connect-part">
+				<div class="connect-part-tit">
+					合作方案
+				</div>
+				<div class="connect-ways">
+				<div class="connect-way">
+						<div class="connect-way-img">
+							
+						</div>
+						<div class="connect-way-tit">
+							直连接入
+						</div>
+						<div class="connect-way-text">
+							<p>智能硬件通过嵌入小米智能模组或集成SDK的方式连接到小米IoT平台。</p>
+							<p>适合无自有云平台的开发者，或者希望产品上架小米有品的开发者。</p>
+						</div>
+						<div class="connect-way-button">
+							<a href="#">了解更多</a>
+						</div>
+					</div>
+					<div class="connect-way2">
+							<div class="connect-way2-img">
+								
+							</div>
+							<div class="connect-way2-tit">
+								云对云接入	
+							</div>
+							<div class="connect-way2-text">
+								<p>智能硬件通过自有云平台连接到小米IoT平台。<br>
+								&nbsp;</p>
+								<p>适合有自有云平台的开发者，或者希望产品仅接入小爱的开发者。</p>
+							</div>
+							<div class="connect-way2-button">
+								<a href="#">了解更多</a>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div id="introduce-process">
+				<div class="blanktit">
+					
+				</div>
+				<div class="introduce-process-tit">
+					合作流程
+				</div>
+				<div class="introduce-process-1"></div>
+				<div class="introduce-process-button">
+					<a href="">申请合作</a>
+					
+				</div>
+			</div>
+			<div id="video">
+				<div class="video-blank">
+					
+				</div>
+				<div id="clickbtn" class="click_btn">
+				<img src="img/videobutton.png" >
+				</div>
+				<div class="dialog_bg">
+				<div class="dialog_cont">
+				<div id="close_btn" class="close">×</div>
+				<div class="video-show">
+				<video src="https://dss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/cae-legoup-video-target/929250cd-6f81-44e8-b20a-d8fe1cadb87f.mp4"  autoplay controls></video>
+				
+				</div>
+				</div>
+				</div>
+				<div class="video-text">
+					极致物联&nbsp;&nbsp;智享生活
+				</div>
+			</div>
+			<footer>
+				<div class="footer-top">
+					<ul class="footer-ul">
+						<li class="top-list">关于平台</li>
+						<li class="top-link"><a href="#">平台介绍</a></li>
+						<li class="top-link"><a href="#">直连接入方案</a></li>
+						<li class="top-link"><a href="#">云对云接入方案</a></li>
+						<li class="top-link"><a href="#">小米模组采购</a></li>
+						<li class="top-link"><a href="#">服务协议</a></li>
+					</ul>
+					<ul class="footer-ul">
+						<li class="top-list">友情链接</li>
+						<li class="top-link"><a href="#">小爱开放平台</a></li>
+						<li class="top-link"><a href="#">小米开放平台</a></li>
+						<li class="top-link"><a href="#">小米商城</a></li>
+						<li class="top-link"><a href="#">小米有品</a></li>
+						<li class="top-link"><a href="#">小米生态云</a></li>
+					</ul>
+					<ul class="footer-ul">
+						<li class="top-list">联系我们</li>
+						<li class="top-link"><a href="#">邮箱：miot-openhome@xiaomi.com</a></li>
+						
+					</ul>
+				</div>
+				<hr style="background-color: red;"/>
+				<div class="footer-bottom">
+					京ICP证110507号 京ICP备100463444号 京公网安备1101085212535号
+				</div>
+			</footer>
+			
+		</div>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script>
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal', // 垂直切换选项
+		    loop: true, // 循环模式选项
+		    
+		    // 如果需要分页器
+		    pagination: {
+		      el: '.swiper-pagination',
+		    },
+		    
+		    // 如果需要前进后退按钮
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		    },
+		    
+		    // 如果需要滚动条
+		    scrollbar: {
+		      el: '.swiper-scrollbar',
+		    },
+		  })        
+		  </script>
+		  <script >
+		  $(document).ready(function(){
+		  $("#clickbtn").on('click',function(){
+		  $(".dialog_bg").show();
+		  })
+		  $("#close_btn").on('click',function(){
+		  $(".dialog_bg").hide();
+		  
+		  })
+		  })
+		  </script>
+	</body>
+</html>

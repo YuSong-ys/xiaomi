@@ -1,0 +1,170 @@
+
+#wrap{
+	width: 100%;
+	}
+#a1{
+	line-height: 40px;
+	margin-left: 13.02%;
+	float: left;
+}
+#a3{
+	font-size: 12px;
+	
+	text-decoration: none;
+	
+}
+#a3:link,#a3:visited{
+	color: white;
+}
+#a3:hover{
+	color: gray;
+}
+
+
+#A1{
+	width: 99%;
+	height: 40px;
+	background-color: black;
+	
+
+}
+span{
+	color: white;
+}
+#a2{
+	line-height: 40px;
+	margin-right: 13.02%;
+	float: right;
+}
+/* .B1{
+	width: 100%;
+    height: 100px;
+	background-color: whitesmoke;
+	margin-left: -8px;
+} */
+
+.b2{
+	margin-top: 22.5px;
+	margin-left: -18.75%;
+	width: 2.60%;
+	height: 50px;
+	background-color: red;
+	border-radius:20% ;
+}
+.p1{
+	font-size: 30px;
+	margin-top: 20px;
+	float: left;
+	margin-left: -15.62%;
+}
+.p2{
+	margin-top: 60px;
+		float: left;
+		margin-left: -15.36%;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	color: lightgray;
+}
+#p3
+{
+	float: right;
+	margin-right: -4.68%;
+	line-height: 100px;
+	
+}
+.second{
+	/* display: none; */
+	position: absolute;
+	left:59.7%;
+	top: 180%;
+	width: 7.81%;
+	height: 100px;
+	display: flex;
+	flex-flow: column nowrap; 
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -100px;
+	list-style: none;
+	z-index: 9999;
+	visibility: hidden;
+	background-color: white;
+	transition: 0.5s;
+	
+}
+.second li{
+	/* transition: 0.8s; */
+	width:100% ;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	text-align: center;
+
+}
+.second li:hover{
+	color: red;
+	background-color: lightgray;
+}
+.second:hover{
+	visibility: visible;
+}
+#p4:nth-of-type(2):hover ~ .second
+{
+	visibility: visible;
+}
+#p4{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-weight: 100;
+	font-size: 18px;
+}
+#p4:hover{
+	color: red;
+}
+#H1{
+	position: relative;
+	width: 99%;
+	height: 100px;
+	background-color: whitesmoke;
+	font-size: 20px;
+	margin-left: /* -8px */0.42%;
+	
+}
+#C1{
+	position: relative;
+	width: 99%;
+		height: 630px;
+		background-image: url(../img/back111111.jpg);
+		
+	margin-left: /* -8px */0.42%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-right: 0;
+	float: left;
+}
+#C2{
+	width: 100%;
+	height: 100px;
+	
+}
+#c1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom:0;
+	right: 0;
+	margin: auto;
+	width: /* 250px */13.02%;
+	height: 40px;
+	padding: /* 10px */0.52%;
+	text-decoration: none;
+	font-size: 24px;
+	border: 1px solid red;
+	border-radius: 5%;
+	background-color: red;
+	color: white;
+	line-height:40px ;
+	text-align: center;
+	
+}

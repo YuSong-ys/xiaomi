@@ -1,0 +1,1453 @@
+*{
+	margin: 0;
+	top: 0;
+}
+a{
+	text-decoration:none;
+	color: #666;
+}
+li {
+	list-style: none;
+}
+/*头部*/
+.header{
+	width:100%;
+	height: 50px;
+	position: sticky;
+	z-index: 100;
+	background-color: white;
+}
+.header-01{
+	width: 10%;
+	height: 21px;
+	margin: 10px 200px;
+	float: left;
+}
+.header-02{
+	width: 550px;
+	height: 19.2px;
+	float: right;
+	margin: 14px 200px;
+	
+}
+.header-02 ul li{
+	list-style: none;
+	display: inline;
+	font-size: 13px;
+	margin-left: 33px;
+	float: left;
+	cursor: pointer;
+}
+/*轮播*/
+.jh1-01{
+	width: 100%;
+	height: 427.5px;
+}
+/*  修改输出屏大小  */
+.banner {/*  修改输出屏大小  */ 
+    width: 1500px; 
+	height: 472.5px;
+	overflow: hidden; 
+	position: relative; 
+	margin-left: auto; 
+	margin-right: auto; 
+	}
+.banner .img {
+	position: absolute; 
+	left: 0px; 
+	top: 0; 
+	padding: 0;
+	}
+.banner .img li{ 
+	float: left; 
+	}
+	
+/*/ 修改图片大小 /*/
+.banner .img .3,.4 { 
+	width: 1519.2px;
+	height: 472.5px; 
+	}
+/*/ 小圆圈 /*/
+.banner .num { 
+	position: absolute; 
+	width: 100%; 
+	top: 450px; 
+	left: 0; 
+	text-align: center; 
+	font-size: 0px; 
+	}
+.banner .num li { 
+	width: 10px; 
+	height: 10px; 
+	background: #888; 
+	border-radius: 50%; 
+	display: inline-block; 
+	margin: 0 3px; 
+	cursor: pointer; 
+	}
+.banner .num li.on { 
+	background: #F60; 
+	}
+/*/ 按钮 /*/
+.banner .btn { 
+	width: 30px; 
+	height: 50px; 
+	background: rgba(0,0,0,0.5); 
+	position: absolute; 
+	top: 50%; 
+	margin-top: -25px; 
+	cursor: pointer; 
+	text-align: center; 
+	line-height: 50px; 
+	color: #fff; 
+	font-size: 40px; 
+	display: none; 
+	}
+.banner:hover .btn { 
+	display: block; 
+	}
+.banner .btn_l { 
+	left: 0; 
+	}
+.banner .btn_r { 
+	right: 0; 
+	}
+/*/ 第一个轮播 / 原本有固定样式。所以第二个轮播我就没写 */
+#ban1 .banner { 
+	width: 1500px;
+	height: 472px; 
+	margin: 0 auto;  
+	}
+#ban1 .banner .img img { 
+	width: 1500px; 
+	height: 472px; 
+	}
+/*导航*/
+.jh2-01{
+	width: 100%;
+	height: 285px;
+}
+.jh2-02{
+	width:1000px;
+	height: 125px;
+	margin: 80px auto;
+	position: relative;
+}
+.jh2-03{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+.jh2-04{
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
+.jh2-05{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 180px;
+}
+.jh2-06{
+	position: absolute;
+	top: 100px;
+	left: 185px;
+}
+.jh2-07{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 360px;
+}
+.jh2-08{
+	position: absolute;
+	top: 100px;
+	left: 358px;
+}
+.jh2-09{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 540px;
+}
+.jh2-10{
+	position: absolute;
+	top: 100px;
+	left: 549px;
+}
+.jh2-11{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 720px;
+}
+.jh2-12{
+	position: absolute;
+	top: 100px;
+	left: 708px;
+}
+.jh2-13{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 895px;
+}
+.jh2-14{
+	position: absolute;
+	top: 100px;
+	left: 866px;
+}
+/*主题1*/
+.jh3-01{
+	width: 100%;
+	height: 822.4px;
+	position: relative;
+	background: #f8f9fa;
+}
+.jh3-02{
+	width: 900px;
+	height: 360px;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+}
+/*  修改输出屏大小  */
+ .jh3-02 #ban2 .banner {/*  修改输出屏大小  */ width: 900px; height: 360px; overflow: hidden; position: relative; margin-left: auto; margin-right: auto; }
+ .jh3-02 #ban2 .banner .img {position: absolute; left: 0px; top: 0; }
+ .jh3-02 #ban2 .banner li { float: left; }
+ .jh3-02 #ban2 .banner .3,.4,.5,.6{ width: 900px;height: 360px; }
+
+/*/ 第一个轮播 / 原本有固定样式。所以第二个轮播我就没写 */
+.jh3-02 #ban2 .banner { width: 900px; height: 360px; margin: 0px auto;  }
+.jh3-02 #ban2 .banner .img img { width: 900px; height: 360px; }
+
+.jh3-03{
+	width:200px;
+	height:55.51px;
+	position: absolute;
+	top: 50px;
+	left: 550px;
+}
+.jh3-04{
+	width: 140px;
+	height: 52.68px;
+	position: absolute;
+	top: 140px;
+	left: 810px;
+}
+.jh3-05{
+	position: absolute;
+	top: 250px;
+	left: 420px;
+}
+.jh3-06{
+	position: absolute;
+	top: 0px;
+	left: 900px;
+}
+.jh3-07{
+	position: absolute;
+	top: 0px;
+	left: 90px;
+}
+.jh3-08{
+	position: absolute;
+	top: 900px;
+	left: 1100px;
+}
+.jh3-09{
+	position: absolute;
+	top: 600px;
+	left: 300px;
+}
+.jh3-10{
+	position: absolute;
+	top: 400px;
+	left: 100px;
+}
+/*主题2*/
+.jh4-01{
+	width: 100%;
+	height: 1004.6px;
+	position: relative;
+}
+.jh4-02{
+	width: 100%;
+	height: 285px;
+	position: relative;
+}
+.jh4-02 p{
+	font-weight: 550;
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 95px;
+}
+.jh4{
+	width: 100%;
+	height: 719.6px;
+	position: relative;
+}
+.jh4-03{
+	position: absolute;
+	top: 0px;
+	left: 300px;
+}
+.jh4-04{
+	position: absolute;
+	top: 100px;
+	left: 320px;
+}
+.jh4-04 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-05{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 180px;
+	left: 265px;
+}
+.jh4-06{
+	position: absolute;
+	top: 0px;
+	left: 660px;
+}
+.jh4-07{
+	position: absolute;
+	top: 100px;
+	left: 675px;
+}
+.jh4-07 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-08{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 180px;
+	left: 629px;
+}
+.jh4-09{
+	position: absolute;
+	top: 0px;
+	left: 1020px;
+}
+.jh4-10{
+	position: absolute;
+	top: 100px;
+	left: 1035px;
+}
+.jh4-10 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-11{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 180px;
+	left: 985px;
+}
+.jh4-12{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+}
+.jh4-13{
+	position: absolute;
+	top: 500px;
+	left: 318px;
+}
+.jh4-13 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-14{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 580px;
+	left: 265px;
+}
+.jh4-15{
+	position: absolute;
+	top: 400px;
+	left: 660px;
+}
+.jh4-16{
+	position: absolute;
+	top: 500px;
+	left: 675px;
+}
+.jh4-16 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-17{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 580px;
+	left: 629px;
+}
+.jh4-18{
+	position: absolute;
+	top: 400px;
+	left: 1020px;
+}
+.jh4-19{
+	position: absolute;
+	top: 500px;
+	left: 1035px;
+}
+.jh4-19 p{
+	color: #000;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	font-size: 22px;
+}
+.jh4-20{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 580px;
+	left: 985px;
+}
+/*主题3*/
+.jh5-01{
+	width:100% ;
+	height: 1050px;
+	position: relative;
+	background-image: url(../img/500.png);
+}
+.jh5-02{
+	width: 100%;
+	height: 295px;
+	position: relative;
+}
+.jh5-02 p{
+	padding-top: 175px;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	font-weight: 550;
+}
+.jh5-03{
+	width: 100%;
+	height: 415px;
+	position: relative;
+}
+.jh5-04{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 260px;
+}
+.jh5-04 p{
+	text-align: center;
+}
+.jh5-05{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+}
+.jh5-05 p{
+	text-align: center;
+}
+.jh5-06{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 440px;
+}
+.jh5-06 p{
+	text-align: center;
+}
+.jh5-07{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 530px;
+}
+.jh5-07 p{
+	text-align: center;
+}
+.jh5-08{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 620px;
+}
+.jh5-08 p{
+	text-align: center;
+}
+.jh5-09{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 710px;
+}
+.jh5-09 p{
+	text-align: center;
+}
+.jh5-10{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 800px;
+}
+.jh5-10 p{
+	text-align: center;
+}
+.jh5-11{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 890px;
+}
+.jh5-11 p{
+	text-align: center;
+}
+.jh5-12{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 980px;
+}
+.jh5-12 p{
+	text-align: center;
+}
+.jh5-13{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 1070px;
+}
+.jh5-13 p{
+	text-align: center;
+}
+.jh5-14{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 1160px;
+}
+.jh5-14 p{
+	text-align: center;
+}
+.jh5-15{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 260px;
+}
+.jh5-15 p{
+	text-align: center;
+}
+.jh5-16{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 350px;
+}
+.jh5-16 p{
+	text-align: center;
+}
+.jh5-17{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 440px;
+}
+.jh5-17 p{
+	text-align: center;
+}
+.jh5-18{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 530px;
+}
+.jh5-18 p{
+	text-align: center;
+}
+.jh5-19{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 620px;
+}
+.jh5-19 p{
+	text-align: center;
+}
+.jh5-20{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 710px;
+}
+.jh5-21{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 800px;
+}
+.jh5-21 p{
+	text-align: center;
+}
+.jh5-22{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 890px;
+}
+.jh5-22 p{
+	text-align: center;
+}
+.jh5-23{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 980px;
+}
+.jh5-23 p{
+	text-align: center;
+}
+.jh5-24{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 1070px;
+}
+.jh5-24 p{
+	text-align: center;
+}
+.jh5-25{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 120px;
+	left: 1160px;
+}
+.jh5-25 p{
+	text-align: center;
+}
+.jh5-26{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 260px;
+}
+.jh5-26 p{
+	text-align: center;
+}
+.jh5-27{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 350px;
+}
+.jh5-27 p{
+	text-align: center;
+}
+.jh5-28{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 440px;
+}
+.jh5-28 p{
+	text-align: center;
+}
+.jh5-29{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 530px;
+}
+.jh5-29 p{
+	text-align: center;
+}
+.jh5-30{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 620px;
+}
+.jh5-30 p{
+	text-align: center;
+}
+.jh5-31{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 710px;
+}
+.jh5-31 p{
+	text-align: center;
+}
+.jh5-32{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 800px;
+}
+.jh5-32 p{
+	text-align: center;
+}
+.jh5-33{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 890px;
+}
+.jh5-33 p{
+	text-align: center;
+}
+.jh5-34{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 980px;
+}
+.jh5-34 p{
+	text-align: center;
+}
+.jh5-35{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 1070px;
+}
+.jh5-35 p{
+	text-align: center;
+}
+.jh5-36{
+	width: 60px;
+	height: 120px;
+	position: absolute;
+	top: 240px;
+	left: 1160px;
+}
+.jh5-36 p{
+	text-align: center;
+}
+.jh5-37{
+	width: 100%;
+	height: 340px;
+	position: relative;
+}
+.jh5-38{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 150px;
+	left: 700px;
+}
+.jh5-38 a {
+	font-size: 16px;
+	color: #09f;
+	align-items: center;
+}
+.jh5-38 a img{
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+/*主题6*/
+.jh6-01{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	background-image: url(../img/602.png);
+	background-size: 1800px 800px;
+}
+.jh6-02{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+.jh6-02 p{
+	font-size: 20px;
+	color: #Ffff;
+}
+.jh6-02 span{
+	font-size: 44px;
+}
+.jh6-03{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 310px;
+	left: 1020px;
+	transition:  60s rotate infinite linear;
+	transform: rotate(-360deg);
+}
+/**主题5*/
+.jh7-01{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+.jh7-02{
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+.jh7-02 p{
+	font-size: 45px;
+	font-weight: 550;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.jh7-03{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 220px;
+	left: 0px;
+}
+.jh7-03 p{
+	text-align: center;
+	font-size: 17px;
+	color: #333;
+}
+.jh7-04{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 270px;
+	left: 0px;
+}
+.jh7-04 p{
+	color: #000;
+	opacity: .3;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.jh7-05{
+	width: 1100px;
+	height: 550px;
+	position: absolute;
+	top: 350px;
+	left: 200px;
+}
+.jh7-05 span{
+	position: absolute;
+	font-size: 20px;
+	color: #333;
+	top: 28px;
+	left: 53px;
+	font-weight: 550;
+}
+.jh7-06{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.jh7-07{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 0px;
+	left: 390px;
+}
+.jh7-08{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 0px;
+	left: 780px;
+}
+.jh7-09{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 300px;
+	left: 0px;
+}
+.jh7-10{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 300px;
+	left: 390px;
+}
+.jh7-11{
+	width: 320px;
+	height: 233px;
+	position: absolute;
+	top: 300px;
+	left: 780px;
+}
+.jh7-12{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 950px;
+	left: 700px;
+}
+.jh7-12 a {
+	font-size: 16px;
+	color: #09f;
+	align-items: center;
+}
+.jh7-12 a img{
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+/*主题6*/
+.jh8-01{
+	width: 100%;
+	height: 980px;
+	position: relative;
+	background-image: url(../img/801.png);
+	background-size: 1500px 980px;
+}
+.jh8-02{
+	width: 1496px;
+	height: 139px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.jh8-02 p{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 550;
+	padding-top: 87px;
+}
+.jh8-03{
+	width: 1496px;
+	height: 30px;
+	position: absolute;
+	top: 139px;
+	left: 0;
+}
+.jh8-03 p{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.jh8-04{
+	width: 1496px;
+	height: 50px;
+	position: absolute;
+	top: 169px;
+	left: 0;
+}
+.jh8-04 p{
+	text-align: center;
+    color: #fff;
+    font-size: 23px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    margin: 40px auto 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: #6ac1cc;
+    border-radius: 35px;
+}
+/*主题6*/
+.jh9-01{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background-image: url(../img/901.png);
+	background-size: 1500px 750px;
+}
+.jh9-02{
+	width: 1496px;
+	height: 290px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.jh9-02 p{
+	text-align: center;
+	font-size: 45px;
+	padding-top: 200px;
+	padding-bottom: 22px;
+	color: white;
+}
+.jh9-03{
+	width: 1496px;
+	height: 126px;
+	position: absolute;
+	top: 290px;
+	left: 0;
+}
+.jh9-03 p{
+	text-align: center;
+	color: white;
+    font-size: 17px;
+    padding-bottom: 77px;
+}
+.jh9-04{
+	width: 1496px;
+	height: 65px;
+	position: absolute;
+	top: 420px;
+	left: 0;
+}
+.jh9-04 p{
+	text-align: center;
+	color: white;
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    line-height: 61px;
+    font-size: 23px;
+    cursor: pointer;
+}
+/*主题7*/
+.jh10-01{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+.jh10-02 {
+	width: 100%;
+	height: 200px;
+}
+.jh10-02 p{
+	font-size: 37px;
+	text-align: center;
+	color: #000;
+	padding: 75px 0;
+	font-weight: 550;
+}
+.jh10-03{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+}
+.jh10-04{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+}
+.jh10-05{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+.jh10-06{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 750px;
+}
+.jh10-07{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 950px;
+}
+.jh10-08{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 1150px;
+}
+.jh10-09{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 150px;
+}
+.jh10-10{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 350px;
+}
+.jh10-11{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 550px;
+}
+.jh10-12{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 750px;
+}
+.jh10-13{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 950px;
+}
+.jh10-14{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 320px;
+	left: 1150px;
+}
+.jh10-15{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 150px;
+}
+.jh10-16{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 350px;
+}
+.jh10-17{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 550px;
+}
+.jh10-18{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 750px;
+}
+.jh10-19{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 950px;
+}
+.jh10-20{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left: 1150px;
+}
+.jh10-21{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 150px;
+}
+.jh10-22{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 350px;
+}
+.jh10-23{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 550px;
+}
+.jh10-24{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 750px;
+}
+.jh10-25{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 950px;
+}
+.jh10-26{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 560px;
+	left: 1150px;
+}
+.jh10-27{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 150px;
+}
+.jh10-28{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 350px;
+}
+.jh10-29{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 550px;
+}
+.jh10-30{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 750px;
+}
+.jh10-31{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 950px;
+}
+.jh10-32{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 680px;
+	left: 1150px;
+}
+.jh10-33{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 800px;
+	left: 150px;
+}
+.jh10-34{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 800px;
+	left: 350px;
+}
+.jh10-35{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 800px;
+	left: 550px;
+}
+.jh10-36{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	top: 800px;
+	left: 750px;
+}
+/*尾部*/
+.foot{
+	width: 100%;
+	height: 200px;
+	background: #1a1a23;
+	position: relative;
+}
+.foot-1{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+.foot-1 a{
+	text-decoration: none;
+	outline: none;
+	color: #ccc;
+}
+.foot-2{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 50px;
+	left: 450px;
+}
+.foot-2 a{
+	text-decoration: none;
+	outline: none;
+	color: #ccc;
+}
+.foot-3{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	top: 50px;
+	left: 600px;
+}
+.foot-3 a{
+	text-decoration: none;
+	outline: none;
+	color: #ccc;
+}
+.foot-4{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 46px;
+	left: 780px;
+}
+.foot-4 a{
+	text-decoration: none;
+	outline: none;
+	color: #ccc;
+}
+.foot-5{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 46px;
+	left: 1020px;
+}
+.foot-5 a{
+	text-decoration: none;
+	outline: none;
+	color: #ccc;
+}
+.foot-10{
+	width: 900px;
+	height: 1px;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 100px;
+	left: 286px;
+}
+.foot-6{
+	width: 60px;
+	height: 23px;
+	border-right: 1px solid #8B8B8B;
+	position: absolute;
+	top: 100px;
+	left: 430px;
+}
+.foot-6 a{
+	text-align: center;
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 14px;
+}
+.foot-7{
+	width: 120px;
+	height: 23px;
+	border-right: 1px solid #8B8B8B;
+	position: absolute;
+	top: 100px;
+	left: 510px;
+}
+.foot-7 a{
+	text-align: center;
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 14px;
+}
+.foot-8{
+	width: 130px;
+	height: 23px;
+	border-right: 1px solid #8B8B8B;
+	position: absolute;
+	top: 100px;
+	left: 655px;
+}
+.foot-8 a{
+	text-align: center;
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 14px;
+}
+.foot-9{
+	width: 300px;
+	height: 23px;
+	position: absolute;
+	top: 100px;
+	left: 800px;
+}
+.foot-9 a{
+	text-align: center;
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 14px;
+}

@@ -1,0 +1,21 @@
+
+/* 侧边栏 */
+.home-tool-bar {
+    position: fixed;
+    z-index: 24;
+    top: 300px;
+    right: 0;
+    width: 27px;
+    height: 261px;
+}
+.home-tool-bar a {
+    height: 42px;
+}
+.home-tool-bar .icon {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+.home-tool-bar span {
+    display: none;
+}

@@ -1,0 +1,74 @@
+.site-topbar {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+.container {
+    width: 1226px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topbar-nav {
+    float: left;
+}
+.topbar-nav a,
+.topbar-info a,
+.topbar-cart a{
+    color: #b0b0b0;
+}
+.topbar-nav a:hover,
+.topbar-info a:hover{
+    color: #fff;
+}
+.topbar-cart a:hover{
+    color: #ff6700;
+}
+.site-topbar span {
+    margin: 0.3em;
+    color: #424242;
+}
+.site-topbar .topbar-info {
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.site-topbar .topbar-cart {
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 12px;
+    background: #444;
+    font-style: none;
+}
+.cartSize {
+    font-size: 15px;
+    margin-right: 7px;
+}
+.site-topbar .topbar-cart a{
+    display: block;
+    text-align: center;
+}
+.topbar-cart:hover {
+    background: #fff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,103 @@
+.site-footer .list-service {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.site-footer .foot-service {
+    border-bottom: 1px solid #ccc;
+}
+.site-footer .list-service li {
+    float: left;
+    font-size: 16px;
+    width: 19.8%;
+    text-align: center;
+    color: #616161;
+}
+.site-footer .list-service li:nth-child(n+2){
+    border-left: 1px solid #ccc;
+}
+.site-footer .footer-links {
+    padding: 40px 0;
+}
+.site-footer .footer-links .col-links {
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.site-footer .footer-links .col-links dt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #424242;
+    margin-bottom: 26px;
+}
+.site-footer .footer-links .col-links dd {
+    font-size: 12px;
+    margin: 10px 0 0;
+}
+.site-footer .footer-links .col-links dd a {
+    color: #757575;
+}
+.site-footer .footer-links .col-links dd a:hover {
+    color: #ff6700;
+}
+.site-footer .col-contact {
+    float: left;
+    margin-left: 20px;
+    width: 240px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.site-footer .col-contact .phone {
+    font-size: 22px;
+    color: #ff6700;
+    line-height: 1;
+}
+.site-footer .col-contact a {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+}
+.site-footer .col-contact a:hover {
+    background: #ff6700;
+    color: #fff;
+}
+.site-footer .col-contact .follow {
+    margin-top: 10px;
+}
+.site-info .info-text {
+    margin-top: 10px;
+}
+.site-info .info-text p {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.site-info .info-text span {
+    line-height: 14px;
+}
+/* .col-links a{
+    text-decoration: none;
+} */
+.list-service a{
+    color:#616161;
+    /* text-decoration: none; */
+}
+.list-service{
+    list-style: none;
+}
+/* #p1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 100px;
+} */
+#p1 a{
+    /* text-decoration: none; */
+    color:#616161;
+}

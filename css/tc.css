@@ -1,0 +1,72 @@
+.click_btn {
+				
+				
+				color: #fff;
+				/* width: 260px; */
+				line-height: 40px;
+				text-align: center;
+				font-size: 25px;
+				cursor: pointer;
+				
+			}
+
+			.dialog_bg {
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: rgba(0, 0, 0, 0.3);
+
+				display: none;
+			}
+
+			.dialog_cont {
+				position: absolute;
+				/* width: /* 300px */15.62%; */
+				/* height: 300px; */
+				transform: translate(-50%, -50%);
+				top: 18%;
+				left: 36%;
+				width: /* 460px */23.96%;
+				height: 500px;
+				background: #fff;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.close {
+				position: absolute;
+				right: 0;
+				top: 0;
+				font-size: 50px;
+				color: lightgray;
+				
+				cursor: pointer;
+				transform: translateX(-40px) translateY(3px) ;
+				 ;
+			}
+			.video-show{
+				border-radius: 20px;
+				margin-top: 50px;
+				font-size: 25px;
+				
+			}
+			#i1{
+				margin-top: 30px;
+				
+			}
+			.video-show p{
+				margin-left:/* 60px */13.04%;
+				margin-top: -15px;
+			}
+			#v{
+				margin-top: 3px;
+				margin-left: /* 80px */22%;
+			}
+			#f{
+				font-size: 16px;
+				margin-top: 10px;
+				margin-left: /* 90px */25%;
+				}

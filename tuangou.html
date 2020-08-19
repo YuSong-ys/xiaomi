@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米企业团购</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="icon" href="xiaomi.ico" type="image/x-icon" />
+		<!-- <link rel="shortcut icon" href="xiaomi.ico" type="image/x-icon" /> -->
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/daohangtiao.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper-6.0.4/package/swiper-bundle.min.css"/>
+		
+	</head>
+	
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$(".site-header-wrap2").hide();
+			$(window).scroll(function() {
+				if($(document).scrollTop() >= 700) {
+					$(".site-header-wrap2").addClass("fixnav").slideDown();
+				} else {
+					$(".site-header-wrap2").hide();
+				}
+			})
+			
+			
+			var home_main = $('.home-good-list').offset().top;
+			function toggleTool() {
+			    if ($(document).scrollTop() >= home_main) {
+			        $('.last-bar').fadeIn();
+				
+			    } else {
+			        $('.last-bar').fadeOut();
+			    }
+			}
+			toggleTool();
+			$(window).scroll(function() {
+			    toggleTool();
+				console.log(home_main)
+			});
+				
+			//返回顶部
+				
+			$('.last-bar').click(function(){
+			    // $(document).scrollTop(0);
+			    //带动画过渡
+			    $('html,body').animate({scrollTop:0},300);
+			})
+		})
+	</script>
+	 <script src="/js/home_tool_bar.js"></script>
+	
+	
+	
+	
+	<body>
+		<div class="main">
+		<div class="site-topbar">
+		    <div class="container">
+		      <div class="topbar-nav">
+		        <a href="#">小米商城</a>
+		        <span>|</span>
+		        <a href="#">MIUI</a>
+		        <span>|</span>
+		        <a href="#">loT</a>
+		        <span>|</span>
+		        <a href="#">云服务</a>
+		        <span>|</span>
+		        <a href="#">金融</a>
+		        <span>|</span>
+		        <a href="#">有品</a>
+		        <span>|</span>
+		        <a href="#">小爱开发平台</a>
+		        <span>|</span>
+		        <a href="#">企业团购</a>
+		        <span>|</span>
+		        <a href="#">资质证照</a>
+		        <span>|</span>
+		        <a href="#">协议规则</a>
+		        <span>|</span>
+		        <a href="#">下载app</a>
+		        
+		      </div>
+		      <div class="topbar-cart">
+		        <a href="#">
+		          <em class="glyphicon glyphicon-shopping-cart cartSize"></em>
+		          购物车
+		          <em>(0)</em>
+		        </a>
+				<div class="cover-up">购物车中还没有商品，赶紧选购吧！</div>
+		      </div>
+		      <div class="topbar-info">
+		        <a href="#">登录</a>
+		        <span>|</span>
+		        <a href="#">注册</a>
+		        <span>|</span>
+		        <a href="#">消息通知</a>
+		      </div>
+			  		
+		    </div>
+		  </div>
+
+		<!--企业购块-->
+		<div class="site-header-wrap site-header ">
+			<div class="container">
+				<div class="header-logo">
+					<a class="logo" href="#"></a>
+					<a class="qiyelogo" href="#"></a>
+				</div>
+				<div class="header-nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">新品 ▪ 礼品卡</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">手机 ▪ 平板</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">笔记本</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">家电</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">智能 ▪ 路由器</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">耳机 ▪ 音箱</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">生活 ▪ 儿童</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">配件 ▪ 车品</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search">
+					<form class="serch-form clearfix">
+						<input class="serch-text" type="search" />
+						<input class="search-btn" type="submit" value="🔍" />
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="site-header-wrap2 site-header">
+			<div class="container">
+				<div class="header-logo">
+					<a class="logo" href="#"></a>
+					<a class="qiyelogo" href="#"></a>
+				</div>
+				<div class="header-nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">新品 ▪ 礼品卡</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">手机 ▪ 平板</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">笔记本</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">家电</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">智能 ▪ 路由器</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">耳机 ▪ 音箱</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">生活 ▪ 儿童</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="link" href="#"><span class="text">配件 ▪ 车品</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search">
+					<form class="serch-form clearfix">
+						<input class="serch-text" type="search" />
+						<input class="search-btn" type="submit" value="🔍" />
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!--轮播图块-->
+		<div class="home-hero-container container">
+			<div class="home-hero">
+				
+				<div class="home-hero-slider">
+					<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/l1.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/l2.jpg" />
+						</div>
+					</div>
+						<!-- 右侧按钮 -->
+						<div class="swiper-button-next" style="right: 296px;color: #E0E0E0;width: 41px;height: 69px;"></div>
+						<!--左侧按钮-->
+					    <div class="swiper-button-prev" style="color: #E0E0E0;width: 41px;height: 69px;"></div>
+					    <!-- Add Pagination -->
+					    <div class="swiper-pagination"></div>
+				</div>
+				</div>
+				<!--轮播图下方-->
+				<div class="home-hero-sub row">
+					<div class="span20">
+						<ul class="home-promo-list clearfix">
+							<li class="first">
+								<img src="img/f1.jpg" />
+							</li>
+							<li >
+								<img src="img/f2.jpg" />
+							</li>
+							<li >
+								<img src="img/f3.jpg" />
+							</li>
+							<li >
+								<img src="img/f4.png" />
+							</li>
+							
+						</ul>
+						
+						
+						
+					</div>
+					
+					
+					
+					
+					
+				</div>
+			
+			</div>
+			<!--轮播图右边你好-->
+			<div class="home-shade-container">
+				<div class="top">
+					
+					<div class="face">
+						<img src="img/icon_face.png" />
+					</div>
+					<div class="profile">
+						<h2 class="webfont">你好，欢迎回来</h2>
+						<a href="#" class="info">登录企业账号开始采购 ></a>
+					</div>
+				
+				
+				</div>
+				<div class="bottom webfont">
+					<h2>企业专属权</h2>
+					<ul>
+						<li>
+							<div class="img img1"></div>
+							<div class="text">
+								<p class="tit">专属价格</p>
+								<p class="info">精选货品，专属优惠</p>
+							</div>
+						</li>
+						<li>
+							<div class="img img2"></div>
+							<div class="text">
+								<p class="tit">自主开票</p>
+								<p class="info">全场商品，增票开具</p>
+							</div>
+						</li>
+						<li>
+							<div class="img img3"></div>
+							<div class="text">
+								<p class="tit">便捷支付</p>
+								<p class="info">对公转账，票款一致</p>
+							</div>
+						</li>
+						<li>
+							<div class="img img4"></div>
+							<div class="text">
+								<p class="tit">专业售后</p>
+								<p class="info">小米直供，售后无忧</p>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="click">更多会员管理规则，请点击 ></a>
+				</div>
+			</div>
+			
+			<!-- -->
+			  </div>
+			  
+			  
+			  
+		<!--商品列表-->	  
+		<div class="home-good-list">
+			<!--第一个-->
+			<div class="home-star-goods container">
+				<div class="xm-plain-box">
+					<div class="box-hd">
+						<h2 class="title">新品 ▪ 礼品卡</h2>
+						<div class="more J_brickNav">
+							<a class="more-link" href="#" >查看全部
+							<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+							
+							</a>
+						</div>
+					</div>
+					
+					<div class="box-bd list">
+						<ul class="carousel-list xm-carousel-col-5-list">
+							<li class="first2">
+								<div class="aaa">
+								<a class="thumb" href="#">
+									<img src="img/p1.jpg" />
+									<p style="font-size: 14px;text-align: center;color: #000000;">小米10 Pro 全网通版</p>	
+									<p style="text-align: center;">小米10 Pro 全网通版</p>
+								</a>
+								<div class="bbb">
+									<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+								</div>
+								</div>
+							</li>
+							<li>
+								<div class="aaa">
+								<a class="thumb" href="#">
+									<img src="img/p1.jpg" />
+									<p style="font-size: 14px;color: #000000;width: 243px;margin-left: -30px;">小米10 Pro 全网通版 8GB+256GB</p>
+									<p style="text-align: center;width: 243px;margin-left: -38px;">小米10 Pro 全网通版 8GB+256GB</p>
+								</a>
+								<div class="bbb">
+									<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+								</div>
+								</div>
+							</li>
+							<li>
+								<div class="aaa">
+								<a class="thumb" href="#">
+									<img src="img/p2.jpg" />
+									<p style="font-size: 14px;text-align: center;color: #000000;">米家电子体温计 白色</p>	
+									<p style="text-align: center;">米家电子体温计 白色</p>
+								</a>
+								<div class="bbb">
+									<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+								</div>
+								</div>
+							</li>
+							<li>
+								<div class="aaa">
+								<a class="thumb" href="#">
+									<img src="img/p3.jpg" />
+									<p style="font-size: 14px;text-align: center;color: #000000;">悦米YM人体工学椅</p>	
+									<p style="text-align: center;">悦米YM人体工学椅</p>
+								</a>
+								<div class="bbb">
+									<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+								</div>
+								</div>
+							</li>
+							<li>
+								<div class="aaa">
+								<a class="thumb" href="#">
+									<img src="img/p4.jpg" />
+									<p style="font-size: 14px;text-align: center;color: #000000;">智能门铃2 黑色</p>	
+									<p style="text-align: center;">智能门铃2 黑色</p>
+								</a>
+								<div class="bbb">
+									<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+								</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<!--第二个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">手机 ▪ 平板</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list xm-carousel-col-5-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p5.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">Redmi K30 5G</p>	
+								<p style="text-align: center;">Redmi K30 5G</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p6.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">Redmi K20 Pro 尊享版</p>	
+								<p style="font-size: 8px;text-align: center;">Redmi K20 Pro 尊享版</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p7.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;width: 234px;margin-left: -40px;">Redmi Note 84 GB+64GB 皓月白</p>	
+								<p style="font-size: 8px;text-align: center;width: 234px;margin-left: -40px;">Redmi Note 8 4GB+64GB 皓月白</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p8.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">Redmi Note 8 Pro</p>	
+								<p style="font-size: 8px;text-align: center;">Redmi Note 8 Pro</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p9.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米10 12GB+256GB</p>	
+								<p style="font-size: 8px;text-align: center;">小米10 12GB+256GB</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第三个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">笔记本</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p10.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">12.5"小米笔记本Air</p>	
+								<p style="text-align: center;">12.5"小米笔记本Air</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p11.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;width: 234px;margin-left: -40px;">小米笔记本15.6" 2019款 独显版</p>	
+								<p style="text-align: center;width: 234px;margin-left: -40px;">小米笔记本15.6" 2019款 独显版</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p12.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">Air 13.3" 2019款</p>	
+								<p style="text-align: center;">Air 13.3" 2019款</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p13.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米笔记本Air 12.5</p>	
+								<p style="text-align: center;">小米笔记本Air 12.5</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p14.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;width: 234px;margin-left: -40px;">小米笔记本Pro 15.6" GTX版</p>	
+								<p style="text-align: center;width: 234px;margin-left: -40px;">小米笔记本Pro 15.6" GTX版</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第四个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">家电</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p15.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家电饭煲C1</p>	
+								<p style="text-align: center;">米家电饭煲C1 5L 白色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p16.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家小饭煲 白色</p>	
+								<p style="text-align: center;">米家小饭煲 白色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p17.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家电磁炉</p>	
+								<p style="text-align: center;">米家电磁炉</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p18.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家破壁料理机</p>	
+								<p style="text-align: center;">米家破壁料理机</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p19.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家空气净化器3</p>	
+								<p style="text-align: center;">米家空气净化器3</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第五个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">智能 ▪ 路由器</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p20.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米多看电纸书</p>	
+								<p style="text-align: center;">小米多看电纸书</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p21.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米米家照片打印机 白色</p>	
+								<p style="text-align: center;">小米米家照片打印机 白色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p22.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米手表 标准版  科技银</p>	
+								<p style="text-align: center;">小米手表 标准版  科技银</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p23.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米手环4 NFC版 黑色</p>	
+								<p style="text-align: center;">小米手环4 NFC版 黑色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p24.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家走步机</p>	
+								<p style="text-align: center;">米家走步机</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第六个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">耳机 ▪ 音箱</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p25.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米小爱音箱 Play版</p>	
+								<p style="text-align: center;">小米小爱音箱 Play版</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p26.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;width: 234px;margin-left: -40px;">小米真无线蓝牙耳机Air2 SE 白色	</p>	
+								<p style="text-align: center;width: 234px;margin-left: -40px;">小米真无线蓝牙耳机Air2 SE 白色	</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p27.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米小爱触屏音箱</p>	
+								<p style="text-align: center;">小米小爱触屏音箱</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p28.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米小爱智能闹钟</p>	
+								<p style="text-align: center;">小米小爱智能闹钟</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p29.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;"> 小米小爱音箱HD</p>	
+								<p style="text-align: center;"> 小米小爱音箱HD</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第七个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">生活 ▪ 儿童</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p30.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">小米小背包</p>	
+								<p style="text-align: center;">小米小背包</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p31.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家电水壶1A 白色</p>	
+								<p style="text-align: center;">米家电水壶1A 白色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p32.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家电动剃须刀S500C</p>	
+								<p style="text-align: center;">米家电动剃须刀S500C</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p33.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">知吾煮汤锅 米家定制</p>	
+								<p style="text-align: center;width: 234px;margin-left: -40px;">聚热快，受热匀 / 食品级不沾涂层</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p34.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;">米家自动香氛机套装 白色</p>	
+								<p style="text-align: center;">米家自动香氛机套装 白色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--第八个-->
+			<div class="home-star-goods container">
+				<div class="box-hd">
+					<h2 class="title">配件 ▪ 车品</h2>
+					<div class="more J_brickNav">
+						<a class="more-link" href="#">查看全部
+						<i class="fa fa-chevron-circle-right" aria-hidden="true" ></i>
+						</a>
+					</div>
+				</div>
+				<div class="box-bd list">
+					<ul class="carousel-list">
+						<li class="first2">
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p35.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米净水器1A反渗透滤芯（400G） 白色	</p>	
+								<p style="text-align: center;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米净水器1A反渗透滤芯（400G） 白色	</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p36.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">米家空气净化器滤芯 除甲醛增强版S1 绿色</p>	
+								<p style="text-align: center;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">米家空气净化器滤芯 除甲醛增强版S1 绿色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p37.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米蓝牙语音遥控器 单机</p>	
+								<p style="text-align: center;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米蓝牙语音遥控器 单机</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p38.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米无线车充 黑色</p>	
+								<p style="text-align: center;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米无线车充 黑色</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="aaa">
+							<a class="thumb" href="#">
+								<img src="img/p39.jpg" />
+								<p style="font-size: 14px;text-align: center;color: #000000;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米 Type-C to AUDIO转接线</p>	
+								<p style="text-align: center;height: 21px;width: 234px;margin-left: -40px;overflow: hidden;">小米 Type-C to AUDIO转接线</p>
+							</a>
+							<div class="bbb">
+								<a href="#" style="color: #fff;">登录企业账号开始采购</a>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+		</div>
+		
+		
+		
+		<!--采购流程-->
+		<div class="purchasi-process">
+			<div class="container">
+				<h2>采购流程</h2>
+				<p>采购仅需4步，2个工作日内完成审核，到账后5个工作日内发货</p>
+				<div class="step"></div>
+			</div>
+			<a href="#">小米企业购会员管理规则，请点击></a>
+		</div>
+		
+		
+		<!--新浪-->
+		<div class="qiye-site-footer">
+			<div class="container">
+				<div class="footer-links">
+					<ul class="list-service clearfix">
+						<li>
+							<a href="#">
+								<i class="icon icon01" aria-hidden="true"></i>
+								新浪微博</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon03" aria-hidden="true"></i>
+								官方微信
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon04" aria-hidden="true"></i>
+								企业购在线客服
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon05" aria-hidden="true"></i>
+								010-53287305
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!--页脚-->
+		<div class="site-info">
+			<div class="container">
+				<span class="logo ir">小米官网</span>
+				
+				<div class="info-text">
+					<p class="sites">
+						<a href="#">小米商城</a>
+						<span class="sep">|</span>
+						<a href="#">MIUI</a>
+						<span class="sep">|</span>
+						<a href="#">米家</a>
+						<span class="sep">|</span>
+						<a href="#">米聊</a>
+						<span class="sep">|</span>
+						<a href="#">多看</a>
+						<span class="sep">|</span>
+						<a href="#">游戏</a>
+						<span class="sep">|</span>
+						<a href="#">路由器</a>
+						<span class="sep">|</span>
+						<a href="#">米粉卡</a>
+						<span class="sep">|</span>
+						<a href="#">政企服务</a>
+						<span class="sep">|</span>
+						<a href="#">小米天猫店</a>
+						<span class="sep">|</span>
+						<a href="#">隐私政策</a>
+						<span class="sep">|</span>
+						<a href="#">商城用户协议</a>
+						<span class="sep">|</span>
+						<a href="#">账号协议</a>
+						<span class="sep">|</span>
+						<a href="#">问题反馈</a>
+						<span class="sep">|</span>
+						<a href="#">廉政举报</a>
+						<span class="sep">|</span>
+						<a href="#">诚信合规</a>
+					</p>
+					
+					<p>@ <a href="#">mi.com </a>京ICP证110507号
+					<a href="#">京ICP备10046444号</a>
+					<a href="#">京公网安备11010802020134号</a>
+					<a href="#">京网文[2017]1530-131号</a><br>
+					<a href="#">(京)网械平台备字（2018）第00005</a>
+					<a href="#"> 互联网药品信息服务资格证 (京) -非经营性-2014-0090 </a>
+					<a href="#">营业执照</a>
+					<a href="#"> 医疗器械公告</a><br>
+					<a href="#">增值电信业务许可证  </a>
+					<a href="#">网络食品经营备案（京）【2018】WLSPJYBAHF-12  &nbsp;</a>
+					<a href="#">食品经营许可证</a><br>
+					<a href="#">违法和不良信息举报电话：185-0130-1238</a>
+					<a href="#"> 知识产权侵权投诉 </a>
+					<a href="#">本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</a>
+					</p>
+				</div>
+				
+				
+				<div class="info-links">
+					<a href="#">
+						<img src="img/truste.png" alt="TRUSTe Privacy Certification"/>
+					</a>
+					<a href="#">
+						<img src="img/v-logo-2.png" alt="TRUSTe Privacy Certification"/>
+					</a>
+					<a href="#">
+						<img src="img/v-logo-1.png" alt="TRUSTe Privacy Certification"/>
+					</a>
+					<a href="#">
+						<img src="img/v-logo-3.png" alt="TRUSTe Privacy Certification"/>
+					</a>
+					<a href="#">
+						<img src="./img/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="TRUSTe Privacy Certification"/>
+					</a>
+				</div>
+				
+				
+				
+				
+			</div>
+			<div class="xmfs">
+			<div class="slogan ir">探索黑科技，小米为发烧而生</div>
+			</div>
+			
+		</div>
+		
+		
+		</div>
+		
+		<div class="home-tool-bar">
+		    <a href="javascript:;">
+		      <div class="icon glyphicon glyphicon-phone cgfvx"></div>
+		      <span >官方微信</span>
+		    </a>
+		    <!-- <a href="javascript:;">
+		      <div class="icon glyphicon glyphicon-user"></div>
+		      <span>个人中心</span>
+		    </a>
+		    <a href="javascript:;">
+		      <div class="icon glyphicon glyphicon-wrench"></div>
+		      <span>售后服务</span>
+		    </a> -->
+		    <a href="javascript:;">
+		      <div class="icon glyphicon glyphicon-headphones"></div>
+		      <span>团购客服</span>
+		    </a>
+		    <a href="javascript:;">
+		      <div class="icon glyphicon glyphicon-shopping-cart"></div>
+		      <span>购物车</span>
+		    </a>
+		    <a href="javascript:;" class="last-bar">
+		      <div class="icon glyphicon glyphicon-arrow-up"></div>
+		      <span>返回顶部</span>
+		    </a>
+		  </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		<script src="swiper-6.0.4/package/swiper-bundle.min.js"></script>
+		<script>
+		    var swiper = new Swiper('.swiper-container', {
+		    
+		           loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+		       
+		    });
+		  </script>
+		 
+	</body>
+</html>

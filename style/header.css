@@ -1,0 +1,142 @@
+.site-header {
+    height: 100px;
+    position: relative;
+    margin-bottom: 18.760px;
+}
+.site-header .header-logo {
+    float: left;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-right: 1px;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    background-color: #ff6700;
+}
+.site-header .header-logo a {
+    display: flex;
+    justify-content: flex-start;
+    transition: all .2s;
+    transform: translate(-49px);
+}
+.site-header .header-logo a:hover {
+    transform: translate(0);
+}
+.site-header .header-logo a img {
+    width: 100%;
+    height: 100%;
+    margin-top:3px;
+    margin-left: 1px;
+}
+.site-header .container{
+    height: 100%;
+}
+
+/* 导航栏 */
+.header-nav {
+    width: 850px;
+    float: left;
+    height: 100%;
+}
+.header-nav .nav-list{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.header-nav .nav-list li{
+    float: left;
+    font-size: 16px;
+    line-height: 100px;
+}
+.header-nav .nav-list li span{
+    color: #333;
+}
+.header-nav .nav-list li a:hover span{
+    color: #ff6700;
+}
+.header-nav .nav-list li a{
+    float: left;
+    padding: 0 13px 0 12px;
+}
+/* 出现下拉 */
+.header-nav .nav-list li:hover .slide-up{
+    display: block;
+}
+.site-header .slide-up:hover{
+    display: block;
+}
+.site-header .slide-up {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    z-index: 20;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    margin-top:-10px;
+    padding-top: 20px;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+
+}
+.site-header .slide-up .children-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+.site-header .slide-up li {
+    line-height: 20px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}   
+.site-header .slide-up li .title{
+    width: 100%;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    margin-top:3px;
+
+}
+.site-header .slide-up li p{
+    display: inline;
+}
+.site-header .slide-up .figure-box {
+    border-right: 1px solid #ccc;
+}
+.site-header .slide-up li a .last-box {
+    border-right: 0;
+}
+
+.site-header .slide-up .figure-box img {
+    width: 120px;
+    height: 110px;
+}
+.site-header .slide-up  .price {
+    color: #ff6700;
+}
+
+
+/* 搜索框 */
+.header-search {
+    float: left;
+    width: 297px;
+    margin-top: 20px;
+}
+.header-search .form-control{
+    float: left;
+    width:245px;
+    padding: 0;
+}
+.header-search .btn{
+    float: left;
+    width: 52px;
+    padding: 0;
+}
+.inputadd {
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
